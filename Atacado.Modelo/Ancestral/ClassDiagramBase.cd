@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Atacado.Modelo.Ancestral.BaseCampoPadronizado">
+    <Position X="1.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\BaseCampoPadronizado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atacado.Modelo.Ancestral.BasePessoa">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQgCAAAIAgAAAAAAAAAAAAAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>Ancestral\BasePessoa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atacado.Modelo.Ancestral.BaseCampoPadronizado02" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\BaseCampoPadronizado02.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atacado.Modelo.Ancestral.BaseCampoPadronizado03" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\BaseCampoPadronizado03.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DesafiosDaGripe01.SituacaoEnum" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\SituacaoEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
