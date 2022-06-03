@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtacadoWinApp", "AtacadoWin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafiosDaGripe01", "DesafiosDaGripe01\DesafiosDaGripe01.csproj", "{1C633EC9-7705-4BAE-966F-52BFFEFA6D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.DAL", "Atacado.DAL\Atacado.DAL.csproj", "{39E7F628-1187-43AB-8DD7-C2D2CE4186B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.DAL", "Atacado.DAL\Atacado.DAL.csproj", "{39E7F628-1187-43AB-8DD7-C2D2CE4186B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAtacadoDAL", "TesteAtacadoDAL\TesteAtacadoDAL.csproj", "{5AD11488-59A2-4740-B9BE-68501A210F47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAtacadoDAL", "TesteAtacadoDAL\TesteAtacadoDAL.csproj", "{5AD11488-59A2-4740-B9BE-68501A210F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.POCO", "Atacado.POCO\Atacado.POCO.csproj", "{90B97D81-7ED9-4293-B390-77C96CB68569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Map", "Atacado.Map\Atacado.Map.csproj", "{8E664CE3-DA81-44F4-9C03-0B197393953D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAtacadoMap", "TesteAtacadoMap\TesteAtacadoMap.csproj", "{16518FC9-10C2-461E-A501-95EECE2712DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{5AD11488-59A2-4740-B9BE-68501A210F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD11488-59A2-4740-B9BE-68501A210F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD11488-59A2-4740-B9BE-68501A210F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B97D81-7ED9-4293-B390-77C96CB68569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B97D81-7ED9-4293-B390-77C96CB68569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B97D81-7ED9-4293-B390-77C96CB68569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B97D81-7ED9-4293-B390-77C96CB68569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E664CE3-DA81-44F4-9C03-0B197393953D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E664CE3-DA81-44F4-9C03-0B197393953D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E664CE3-DA81-44F4-9C03-0B197393953D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E664CE3-DA81-44F4-9C03-0B197393953D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16518FC9-10C2-461E-A501-95EECE2712DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16518FC9-10C2-461E-A501-95EECE2712DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16518FC9-10C2-461E-A501-95EECE2712DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16518FC9-10C2-461E-A501-95EECE2712DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
