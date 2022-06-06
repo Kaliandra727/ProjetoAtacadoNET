@@ -1,4 +1,4 @@
-﻿using Atacado.Modelo.Estoque;
+﻿using Atacado.Domain.Estoque;
 using Atacado.POCO.Estoque;
 using System;
 using System.Collections.Generic;

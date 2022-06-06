@@ -1,5 +1,5 @@
-﻿using Atacado.Modelo.IBGE;
-using Atacado.Modelo.RH;
+﻿using Atacado.Domain.IBGE;
+using Atacado.Domain.RH;
 using System;
 using System.Collections.Generic;
 using System.Linq;

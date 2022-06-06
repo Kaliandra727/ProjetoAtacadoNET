@@ -1,4 +1,4 @@
-﻿using Atacado.Modelo.Estoque;
+﻿using Atacado.Domain.Estoque;
 using Atacado.POCO.Estoque;
 using System;
 using System.Collections.Generic;
@@ -10,17 +10,17 @@ namespace Atacado.Map.Estoque
 {
     public static class CategoriaMap
     {
-        public static CategoriaPOCO ConverterParaPoco(Categoria modelo)
+        public static CategoriaPOCO ConverterParaPoco(Categoria dominio)
         {
             return new CategoriaPOCO()
             {
-                Codigo = modelo.Codigo,
-                Descricao = modelo.Descricao,
-                Situacao = modelo.Situacao
+                Codigo = dominio.Codigo,
+                Descricao = dominio.Descricao,
+                Situacao = dominio.Situacao
             };
         }
 
-        public static Categoria ConverterParaModelo(CategoriaPOCO poco)
+        public static Categoria ConverterParaDomain(CategoriaPOCO poco)
         {
             return new Categoria(poco.Codigo, poco.Descricao, poco.Situacao);
         }

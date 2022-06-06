@@ -1,7 +1,7 @@
 ﻿using Atacado.FakeDB.IBGE;
 using Atacado.FakeDB.RH;
-using Atacado.Modelo.IBGE;
-using Atacado.Modelo.RH;
+using Atacado.Domain.IBGE;
+using Atacado.Domain.RH;
 using DesafiosDaGripe01.ProblemasFunc;
 using DesafiosDaGripe01.ProblemasMat;
 
@@ -23,7 +23,6 @@ namespace DesafiosDaGripe01
             //ExecutarExercicio10();
             //ExecutarExercicio11();
             //ExecutarExercicio12();
-            ExecutarExercicio13();
 
         }
 
