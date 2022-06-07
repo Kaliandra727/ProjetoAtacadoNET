@@ -22,7 +22,7 @@ namespace Atacado.Map.Estoque
             };
         }
 
-        public static Produto ConverterParaModelo(ProdutoPOCO poco)
+        public static Produto ConverterParaDomain(ProdutoPOCO poco)
         {
             return new Produto(poco.Codigo,poco.CodSubcategoria, poco.CodCategoria , poco.Descricao, poco.Situacao);
         }

@@ -69,6 +69,7 @@ namespace Atacado.Service.Estoque
             //    };
             //    listPOCO.Add(poco)
             //}
+            //return listPOCO;
         }
 
         public CategoriaPOCO Selecionar(int id)

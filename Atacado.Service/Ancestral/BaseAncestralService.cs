@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Atacado.DAL.Ancestral;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Ancestral
 {
-    public interface IAcaoValidarSrv<T>
+    public abstract class BaseAncestralSrv<T> where T : class
     {
-        List<string> MensagensDeErro { get; }
-        bool Validar(T obj);
+        protected BaseAncestralDAO<T> dao;
     }
 }

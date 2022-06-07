@@ -32,7 +32,7 @@ namespace Atacado.Map.RH
             };
         }
 
-        public static Funcionario ConverterParaModelo(FuncionarioPOCO poco)
+        public static Funcionario ConverterParaDomain(FuncionarioPOCO poco)
         {
             return new Funcionario(poco.Codigo, poco.Telefone, poco.Email, poco.Endereco, poco.Nome
                 , poco.SobreNome, poco.Idade, poco.Altura, poco.Peso, poco.DtNascimento, poco.Naturalidade
