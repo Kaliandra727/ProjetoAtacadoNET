@@ -25,7 +25,7 @@ namespace Atacado.Map.RH
             };
         }
 
-        public static Empresa ConverterParaModelo(EmpresaPOCO poco)
+        public static Empresa ConverterParaDomain(EmpresaPOCO poco)
         {
             return new Empresa(poco.Codigo, poco.Telefone, poco.Email, poco.Endereco, poco.RazaoSocial,
                 poco.NomeFantasia, poco.Cnpj, poco.InscricaoEstadual);

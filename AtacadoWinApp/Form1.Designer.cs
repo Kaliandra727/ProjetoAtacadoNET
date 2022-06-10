@@ -31,9 +31,11 @@
             this.OiMundoBtn = new System.Windows.Forms.Button();
             this.FecharBtn = new System.Windows.Forms.Button();
             this.PrincipalMenu = new System.Windows.Forms.MenuStrip();
-            this.ArquivoMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ArquivoMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FuncionariosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AdicionarFuncionarioMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.EmpresaMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AdicionarEmpresaMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PrincipalMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,20 +62,22 @@
             // PrincipalMenu
             // 
             this.PrincipalMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ArquivoMenuItem1});
+            this.ArquivoMenuItem});
             this.PrincipalMenu.Location = new System.Drawing.Point(0, 0);
             this.PrincipalMenu.Name = "PrincipalMenu";
             this.PrincipalMenu.Size = new System.Drawing.Size(796, 24);
             this.PrincipalMenu.TabIndex = 2;
             this.PrincipalMenu.Text = "menuStrip1";
             // 
-            // ArquivoMenuItem1
+            // ArquivoMenuItem
             // 
-            this.ArquivoMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.FuncionariosMenuItem});
-            this.ArquivoMenuItem1.Name = "ArquivoMenuItem1";
-            this.ArquivoMenuItem1.Size = new System.Drawing.Size(61, 20);
-            this.ArquivoMenuItem1.Text = "Arquivo";
+            this.ArquivoMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.FuncionariosMenuItem,
+            this.EmpresaMenuItem});
+            this.ArquivoMenuItem.Name = "ArquivoMenuItem";
+            this.ArquivoMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.ArquivoMenuItem.Text = "Arquivo";
+            this.ArquivoMenuItem.Click += new System.EventHandler(this.ArquivoMenuItem1_Click);
             // 
             // FuncionariosMenuItem
             // 
@@ -86,9 +90,24 @@
             // AdicionarFuncionarioMenuItem
             // 
             this.AdicionarFuncionarioMenuItem.Name = "AdicionarFuncionarioMenuItem";
-            this.AdicionarFuncionarioMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AdicionarFuncionarioMenuItem.Size = new System.Drawing.Size(125, 22);
             this.AdicionarFuncionarioMenuItem.Text = "Adicionar";
             this.AdicionarFuncionarioMenuItem.Click += new System.EventHandler(this.AdicionarFuncionarioMenuItem_Click);
+            // 
+            // EmpresaMenuItem
+            // 
+            this.EmpresaMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AdicionarEmpresaMenuItem});
+            this.EmpresaMenuItem.Name = "EmpresaMenuItem";
+            this.EmpresaMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.EmpresaMenuItem.Text = "Empresa";
+            // 
+            // AdicionarEmpresaMenuItem
+            // 
+            this.AdicionarEmpresaMenuItem.Name = "AdicionarEmpresaMenuItem";
+            this.AdicionarEmpresaMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AdicionarEmpresaMenuItem.Text = "Adicionar";
+            this.AdicionarEmpresaMenuItem.Click += new System.EventHandler(this.AdicionarEmpresaMenuItem_Click);
             // 
             // PrincipalFrm
             // 
@@ -114,8 +133,10 @@
         private Button OiMundoBtn;
         private Button FecharBtn;
         private MenuStrip PrincipalMenu;
-        private ToolStripMenuItem ArquivoMenuItem1;
+        private ToolStripMenuItem ArquivoMenuItem;
         private ToolStripMenuItem FuncionariosMenuItem;
         private ToolStripMenuItem AdicionarFuncionarioMenuItem;
+        private ToolStripMenuItem EmpresaMenuItem;
+        private ToolStripMenuItem AdicionarEmpresaMenuItem;
     }
 }

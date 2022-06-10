@@ -175,7 +175,7 @@ namespace Atacado.Business.RH
 		{
 			if (string.IsNullOrEmpty(telefone) != true)
 			{
-				if ((telefone.Length <= 10) && (telefone.Length > 11))
+				if ((telefone.Length <= 10) || (telefone.Length > 11))
 				{
 					this.mensagens.Add("- Telefone inválido.");
 					return false;

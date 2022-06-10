@@ -59,5 +59,15 @@ namespace AtacadoWinApp
             AdicionarFuncionariosFrm frm = new AdicionarFuncionariosFrm();
             frm.ShowDialog();
         }
+
+        private void ArquivoMenuItem1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void AdicionarEmpresaMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarEmpresaFrm frm = new CadastrarEmpresaFrm();
+            frm.ShowDialog();
+        }
     }
 }

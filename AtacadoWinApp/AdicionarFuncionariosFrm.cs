@@ -69,7 +69,7 @@ namespace AtacadoWinApp
                 Endereco = EnderecoTxt.Text,
                 DtNascimento = DtNascimentoDtp.Value,
                 Sexo = SexoCmb.SelectedValue.ToString()
-                };
+            };
 
                 FuncionarioService srv = new FuncionarioService();
                 if (srv.Validar(poco) == false)
